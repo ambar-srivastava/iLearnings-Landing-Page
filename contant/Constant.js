@@ -219,3 +219,53 @@ export const Brands2 = [
     brandUrl: "/Brands2/wipro.jpg",
   },
 ];
+
+export const CareerImages = [
+  {
+    id: 1,
+    heading: "Learn",
+    description:
+      "Learn from industry experts & get Doubts clarified in less than 30mins",
+    careerImgUrl: "/CareerImg/career1.png",
+  },
+  {
+    id: 2,
+    heading: "Code",
+    description:
+      "Hands on Project based learning programs in a community based format",
+    careerImgUrl: "/CareerImg/career2.png",
+  },
+  {
+    id: 3,
+    heading: "UpSkill",
+    description: "Get certified, Get Internship Land up in dream job",
+    careerImgUrl: "/CareerImg/career3.png",
+  },
+];
+
+export const ProgramImages = [
+  {
+    id: 1,
+    heading: "Competitive Programming",
+    buttonText: "Explore",
+    programImgUrl: "/ProgramImg/program1.png",
+  },
+  {
+    id: 2,
+    heading: "Get Placement Ready",
+    buttonText: "Explore",
+    programImgUrl: "/ProgramImg/program2.png",
+  },
+  {
+    id: 3,
+    heading: "Web Development",
+    buttonText: "Explore",
+    programImgUrl: "/ProgramImg/program3.png",
+  },
+  {
+    id: 4,
+    heading: "Data Science",
+    buttonText: "Explore",
+    programImgUrl: "/ProgramImg/program4.png",
+  },
+];
