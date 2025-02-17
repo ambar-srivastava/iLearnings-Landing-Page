@@ -2,7 +2,7 @@
 import Image from "next/image";
 import React from "react";
 import Logo from "../../../public/cantileverlogoblack.png";
-import { NavLinks } from "@/contant/Constant";
+import { NavLinks } from "@/constant/Constant";
 import Link from "next/link";
 import { FaChevronDown } from "react-icons/fa";
 import { HiMenuAlt3 } from "react-icons/hi";

@@ -269,3 +269,60 @@ export const ProgramImages = [
     programImgUrl: "/ProgramImg/program4.png",
   },
 ];
+
+export const testimonialContent = [
+  {
+    id: 1,
+    name: "MANASA SAMA",
+    avatarImg: "/Testimonials/avatar.webp",
+    companyName: "Capgemini",
+    companyImg: "/Testimonials/capgemini.png",
+    description:
+      "Cantilever's Resume building session has helped me to a great extent as the resume I've built previously did not reflect my true abilities. As a student of EC department I would say it was exactly what I needed to get through.",
+  },
+  {
+    id: 2,
+    name: "Sai Nitish",
+    avatarImg: "/Testimonials/avatar.webp",
+    companyName: "Cognizant",
+    companyImg: "/Testimonials/cognizant.png",
+    description:
+      "The trainers are highly qualified. They taught us aptitude, core and verbal. I personally liked aptitude and core subjects. The trainers clarified each and every doubt. Daily assessments helped me a lot on my incremental improvement and helped in keeping an eye on the overall performance of students.",
+  },
+  {
+    id: 3,
+    name: "ANISHA ARORA",
+    avatarImg: "/Testimonials/avatar.webp",
+    companyName: "EXL",
+    companyImg: "/Testimonials/exl.png",
+    description:
+      "I attended the training programme by cantilever labs held on our campus and I am glad to get the opportunity to be mentored by them as they have an astute knowledge and experience of the corporate world. This training helped me in getting an excellent campus placement.",
+  },
+  {
+    id: 4,
+    name: "Ayushi Sharma",
+    avatarImg: "/Testimonials/avatar.webp",
+    companyName: "Flipkart",
+    companyImg: "/Testimonials/flipkart.png",
+    description:
+      "The training did not only offer me data based reflection but also gave me an insight into improvement to the informative sessions by extremely qualified resource persons.",
+  },
+  {
+    id: 5,
+    name: "PRAHARSHA SAI",
+    avatarImg: "/Testimonials/avatar.webp",
+    companyName: "Futures First",
+    companyImg: "/Testimonials/futures first.png",
+    description:
+      "Cantilever Labs helps the students to get into the companies they dreamt of in a possible way. Material provided by them was of great help for my preparation. Trainers were friendly and supporting us by analysing our strengths and weaknesses.",
+  },
+  {
+    id: 6,
+    name: "SUGAM GANDHI",
+    avatarImg: "/Testimonials/avatar.webp",
+    companyName: "Vedantu",
+    companyImg: "/Testimonials/vedantu.png",
+    description:
+      "Cantilever labs have some very great trainers with speciality in Consulting, Analytics and IT. The test series of Cantilever Labs proved to most useful for me because I encountered similar questions in the placement tests.",
+  },
+];

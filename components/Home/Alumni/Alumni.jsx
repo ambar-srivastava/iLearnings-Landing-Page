@@ -2,9 +2,9 @@
 import { motion } from "framer-motion";
 import Image from "next/image";
 import React, { useEffect, useState } from "react";
-import { Brands1, Brands2 } from "@/contant/Constant";
+import { Brands1, Brands2 } from "@/constant/Constant";
 
-const Alumini = () => {
+const Alumni = () => {
   const [isClient, setIsClient] = useState(false);
 
   useEffect(() => {
@@ -86,4 +86,4 @@ const Alumini = () => {
   );
 };
 
-export default Alumini;
+export default Alumni;

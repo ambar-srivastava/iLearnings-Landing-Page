@@ -1,6 +1,7 @@
+"use client";
 import Image from "next/image";
 import React from "react";
-import { CareerImages } from "@/contant/Constant";
+import { CareerImages } from "@/constant/Constant";
 import rocket from "../../../public/CareerImg/rocket.gif";
 
 const Career = () => {
@@ -12,7 +13,7 @@ const Career = () => {
         </h2>
       </div>
       <div className="flex lg:flex-row flex-col gap-y-20">
-        <div className="lg:w-1/2 lg:h-[25rem] flex lg:flex-row flex-col gap-x-40 gap-y-10 px-28 items-center">
+        <div className="lg:w-1/2 lg:h-[25rem] flex lg:flex-row flex-col gap-x-40 gap-y-10 lg:px-28 px-10 items-center">
           {CareerImages.map((career) => (
             <div
               key={career.id}
@@ -25,10 +26,10 @@ const Career = () => {
                 height={100}
               />
               <div>
-                <h4 className=" font-medium text-3xl">{career.heading}</h4>
+                <h4 className="font-medium text-3xl">{career.heading}</h4>
               </div>
               <div>
-                <p className=" text-center">{career.description}</p>
+                <p className="text-center">{career.description}</p>
               </div>
             </div>
           ))}

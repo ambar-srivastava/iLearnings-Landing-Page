@@ -43,7 +43,7 @@ const Hero = () => {
                   Be Different & Make the Difference, Start your Journey Today
                 </p>
               </div>
-              <button className="uppercase w-40 mt-8 rounded-2xl text-white font-semibold text-xl py-4 bg-[#FFA500] ">
+              <button className="uppercase hover:scale-[1.1] transition-all duration-500 w-40 mt-8 rounded-2xl text-white font-semibold text-xl py-4 bg-[#FFA500] ">
                 get started
               </button>
             </div>

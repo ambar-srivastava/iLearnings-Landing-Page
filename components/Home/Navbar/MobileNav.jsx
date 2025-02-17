@@ -1,5 +1,5 @@
 "use client";
-import { NavLinks } from "@/contant/Constant";
+import { NavLinks } from "@/constant/Constant";
 import Link from "next/link";
 import React from "react";
 import { FaChevronDown } from "react-icons/fa";
